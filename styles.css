@@ -84,6 +84,7 @@ body {
 
 .darkMode {
     background: url(./assets/night-background.png) rgb(6, 5, 56);
+    background-size: cover;
 }
 
 .darkMode .darkModeButton {
