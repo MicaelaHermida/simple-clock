@@ -154,3 +154,23 @@ body {
     font-size: 2rem;
     display: block;
 }
+
+@media only screen and (max-width: 767px){
+    body {
+        transition: background-image 0.5s ease-in-out;
+        background: url(./assets/light-background.png) rgb(15, 151, 169);
+        background-size:cover;
+        color: rgb(221, 213, 224);
+        font-size: 12px;
+    }
+    
+    .shadow {
+        box-shadow: 2px 2px 4px rgba(23, 23, 31, 0.379);
+    }
+    
+    .widget {
+        width: 70%;
+        margin: auto;
+        margin-top: 0;
+    }
+}
